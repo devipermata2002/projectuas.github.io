@@ -1,0 +1,750 @@
+
+body{
+    margin: 0;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #fff;
+    width: 100%;
+    height: 70;
+}
+
+.header a{
+    float: right;
+    text-decoration: none;
+    color: #203f6e;
+    padding: 26;
+}
+
+.header img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    position: relative;
+    left: 20px;
+}
+
+.header a:hover{
+    border-bottom: solid 5px;
+    padding-top: 22;
+}
+
+.isi{
+    height: auto;
+}
+
+.konten{
+    background-image: url("assets/images/background1.jpg");
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    padding-top: 100;
+    padding-bottom: 100;
+}
+
+.video video{
+    width: 100%;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.produk{
+    width: 100%;
+    height: auto;
+}
+
+.judulproduk{
+    width: 100%;
+    height: 10%;
+}
+
+.judulproduk table{
+    font-size: 30;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.kotakproduk{
+    width: 95%;
+    height: 65%;
+    margin: auto;
+}
+
+.isiproduk{
+    background: brown;
+    border-radius: 15px;
+    float: left;
+    width: 24%;
+    margin-left: 10;
+    margin-left: 10;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+.isiproduk img{
+    width: 100%;
+}
+
+.isiproduk p{
+    color: white;
+    text-align: center;
+    font-size: 25;
+}
+
+.tombol{
+    margin: auto;
+    width: 50%;
+    height: 10%;
+    margin-bottom: 20;
+}
+
+.tombol button{
+    background-color: ;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.tombol button:hover{
+    opacity: 1;
+}
+
+.tombol a{
+    color: #DC143C;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25;
+}
+
+.halproduk{
+    margin: auto;
+    width: 30%;
+}
+
+.tombol2{
+    margin: auto;
+    width: 50%;
+    height: 10%;
+    margin-bottom: 20;
+}
+
+.tombol2 button{
+    background-color: #DC143C;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.tombol2 button:hover{
+    opacity: 1;
+}
+
+.tombol2 a{
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25;
+}
+
+.kontenisi{
+    margin: auto;
+    width: 90%;
+}
+
+.par{
+    width: 100%;
+    color: white;
+}
+
+.par b{ 
+   font-size: 20;
+   color: white;
+}
+
+.isiform {
+    width: 50%;
+    background-color: #fff;
+    padding: 20;
+    margin-left: 350px;
+    color: #203f6e;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.isiform input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 0;
+    border-radius: 7px;
+    background: #ddd;
+    font-size: 15px;
+}
+
+.isiform input:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.isiform label{
+    float: left;
+}
+
+.isiform select{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-size: 15px;
+}
+  
+.isiform select:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+hr{
+    border: 2px solid #203f6e;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+.isiform button{
+    background-color: #183053;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    position: relative;
+    left: 150px;
+}
+
+.isiform button:hover {
+    opacity: 1;
+}
+
+.adaakun {
+    background-color: #183053;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin-left: 350px;
+    color: #ddd;
+    border : 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.adaakun a {
+    color: cornflowerblue;
+}
+
+.formtampil{
+    padding-top: 20px;
+    width: 43%;
+    background-color: #fff;
+    color: white;
+    border: 0px;
+    border-radius: 15px;
+    opacity: ;
+    }
+.formtampil b { 
+    margin-left: 70px;
+    color: #183053;
+}
+.formtampil input{
+    padding: 15px;
+    margin: 5px 0 22px 20px;
+    display: inline-block;
+    border: none;
+    background: #ddd;
+    border-radius: 10px;
+}
+    
+.formtampil input:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+.formtampil button{
+    background-color: #183053;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 8px 0 20px 200px;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.formtampil button:hover {
+    opacity: 1;
+}
+
+.footer{
+    background-color: #fff;
+    width: 100%;
+    height: auto ;
+    margin: auto;
+}
+
+.fropdalam{
+    width: 90%;
+    height: 70%;
+    margin: auto;  
+}
+
+.fropdalam1{
+    width: 33%;
+    height: auto;
+    float: left; 
+}
+
+.fropdalam1 table{
+    width: 100%;
+    height: 20%;
+    font-size: 20;
+    color: #203f6e;
+
+}
+
+.fropdalam2{
+    width: 34%;
+    height: 350;
+    float: left;
+}
+
+.fropdalam2 table{
+    width: 100%;
+    height: 18%;
+    margin-left: 30%;
+    font-size: 20;
+    color: white;
+    text-align: justify;
+}
+
+.fropdalam2 table a{
+    width: 100%;
+    height: 20%;
+    font-size: 20;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.fropdalam3{
+    width: 33%;
+    height: 350;
+    float: left;
+}
+
+.fropdalam3 table{
+    width: 100%;
+    height: 20%;
+    font-size: 20;
+    color: #203f6e;
+}
+
+.fropdalam3 img{
+    width: 50;
+}
+
+.footertab table{
+    width: 100%;
+    height: 70;
+    text-align: center;
+    color: #203f6e;
+}
+
+/* Jika ukuran layar 680px atau kurang dari itu */
+
+/* @media (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+} */
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    /* mengatur tabel */
+    .fropdalam2 table{
+        width: 100%;
+        height: 18%;
+        margin-left: 18%;
+        font-size: 20;
+        color: #203f6e;
+        text-align: justify;
+    }
+
+    .kotakproduk{
+        width: 95%;
+        height: 200%;
+        margin: auto;
+    }
+
+    .isiproduk{
+        float: left;
+        width: 48%;
+    }
+
+    .tombol{
+        margin: auto;
+        width: 50%;
+        height: 4%;
+        margin-bottom: 20;
+    }
+    
+    .halproduk{
+        margin: auto;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .tombol2{
+        margin: auto;
+        width: 50%;
+        height: 10%;
+        margin-bottom: 20;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    /* mengatur tabel */
+    .fropdalam2 table{
+        width: 100%;
+        height: 18%;
+        margin-left: 18%;
+        font-size: 20;
+        color: #203f6e;
+        text-align: justify;
+    }
+
+    .kotakproduk{
+        width: 95%;
+        height: 160%;
+        margin: auto;
+    }
+
+    .isiproduk{
+        float: left;
+        width: 48%;
+    }
+
+    .tombol{
+        margin: auto;
+        width: 50%;
+        height: 4%;
+        margin-bottom: 20;
+    }
+
+    .tombol2{
+        margin: auto;
+        width: 50%;
+        height: 10%;
+        margin-bottom: 20;
+    }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (max-width: 618px) {
+    /* mengatur tabel */
+        .fropdalam2 table{
+            width: 100%;
+            height: 18%;
+            margin-left: 18%;
+            font-size: 20;
+            color: #203f6e;
+            text-align: justify;
+        }
+    /* 
+        .isiform input{
+            width: 100%;
+            padding: 7px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        .adaakun {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 5px;
+        } */
+    
+        .kotakproduk{
+            width: 60%;
+            height: 320%;
+            margin: auto;
+        }
+        
+        .isiproduk{
+            float: left;
+            width: 100%;
+        }
+        
+        /* mengatur tombol submit */
+        /* .isiform button{
+            background-color: rgb(114, 23, 23);
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        } */
+        
+        .tombol{
+            margin: auto;
+            width: 50%;
+            height: 2%;
+            margin-bottom: 20;
+        }
+    
+        .halproduk{
+            margin: auto;
+            width: 100%;
+        }
+    
+        .tombol2{
+            margin: auto;
+            width: 50%;
+            height: 10%;
+            margin-bottom: 20;
+        }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (max-width: 576px) {
+    /* mengatur tabel */
+        .fropdalam2 table{
+            width: 100%;
+            height: 18%;
+            margin-left: 18%;
+            font-size: 20;
+            color: #203f6e;
+            text-align: justify;
+        }
+    /* 
+        .isiform input{
+            width: 100%;
+            padding: 7px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        .adaakun {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 5px;
+        } */
+    
+        .kotakproduk{
+            width: 60%;
+            height: 310%;
+            margin: auto;
+        }
+        
+        /* mengatur produk 1 */
+        .isiproduk{
+            float: left;
+            width: 100%;
+        }
+        
+        /* mengatur tombol submit */
+        /* .isiform button{
+            background-color: rgb(114, 23, 23);
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        } */
+        
+        .tombol{
+            margin: auto;
+            width: 50%;
+            height: 2%;
+            margin-bottom: 20;
+        }
+    
+        .halproduk{
+            margin: auto;
+            width: 100%;
+        }
+    
+        .tombol2{
+            margin: auto;
+            width: 50%;
+            height: 10%;
+            margin-bottom: 20;
+        }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (max-width: 480px) {
+    /* mengatur tabel */
+        .fropdalam2 table{
+            width: 100%;
+            height: 18%;
+            margin-left: 1%;
+            font-size: 20;
+            color: #203f6e;
+            text-align: justify;
+        }
+    /* 
+        .isiform input{
+            width: 100%;
+            padding: 7px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        .adaakun {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 5px;
+        } */
+    
+        .kotakproduk{
+            width: 75%;
+            height: 310%;
+            margin: auto;
+        }
+        
+        /* mengatur produk 1 */
+        .isiproduk{
+            float: left;
+            width: 100%;
+        }
+        
+        /* mengatur tombol submit */
+        /* .isiform button{
+            background-color: rgb(114, 23, 23);
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        } */
+        
+        .tombol{
+            margin: auto;
+            width: 50%;
+            height: 2%;
+            margin-bottom: 20;
+        }
+    
+        .halproduk{
+            margin: auto;
+            width: 100%;
+        }
+    
+        .tombol2{
+            margin: auto;
+            width: 60%;
+            height: 10%;
+            margin-bottom: 20;
+        }
+    }
+
+/* Medium devices (tablets, 576px and up) */
+@media (max-width: 360px) {
+    /* mengatur tabel */
+        .fropdalam2 table{
+            width: 100%;
+            height: 18%;
+            margin-left: 1%;
+            font-size: 20;
+            color: #203f6e;
+            text-align: justify;
+        }
+    /* 
+        .isiform input{
+            width: 100%;
+            padding: 7px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        .adaakun {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 5px;
+        } */
+    
+        .kotakproduk{
+            width: 75%;
+            height: 270%;
+            margin: auto;
+        }
+        
+        /* mengatur produk 1 */
+        .isiproduk{
+            float: left;
+            width: 100%;
+        }
+        
+        /* mengatur tombol submit */
+        /* .isiform button{
+            background-color: rgb(114, 23, 23);
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        } */
+        
+        .tombol{
+            margin: auto;
+            width: 50%;
+            height: 2%;
+            margin-bottom: 20;
+        }
+    
+        .halproduk{
+            margin: auto;
+            width: 100%;
+        }
+    
+        .tombol2{
+            margin: auto;
+            width: 60%;
+            height: 10%;
+            margin-bottom: 20;
+        }
+    }
